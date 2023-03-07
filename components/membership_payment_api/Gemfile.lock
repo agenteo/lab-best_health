@@ -1,7 +1,13 @@
 PATH
+  remote: ..
+  specs:
+    bank_transaction (0.1.0)
+
+PATH
   remote: .
   specs:
     membership_payment_api (0.1.0)
+      bank_transaction
       rails (>= 7.0.4.2)
 
 GEM
@@ -175,6 +181,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bank_transaction!
   membership_payment_api!
   rspec-rails
   sprockets-rails

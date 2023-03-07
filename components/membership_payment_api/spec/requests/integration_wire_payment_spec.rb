@@ -9,5 +9,13 @@ RSpec.describe "Initiating a wire payment", type: :request do
             expect(response.status).to eq(200)
         end      
     end
+
+    describe 'POST /api/wire_payments/create' do
+        it 'returns http success' do
+            post '/api/wire_payments/create'
+
+            expect(response.status).to eq(200)
+        end      
+    end
     
 end

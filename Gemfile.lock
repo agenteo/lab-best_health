@@ -1,7 +1,9 @@
 PATH
   remote: components
   specs:
+    bank_transaction (0.1.0)
     membership_payment_api (0.1.0)
+      bank_transaction
       rails (>= 7.0.4.2)
 
 GEM
