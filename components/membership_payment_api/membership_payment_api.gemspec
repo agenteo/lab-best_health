@@ -16,4 +16,6 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", ">= 7.0.4.2"
+
+  spec.add_development_dependency "rspec-rails"
 end

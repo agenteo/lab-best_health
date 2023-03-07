@@ -1,24 +1,10 @@
-# README
+# Rails dependency structure with Engines and gems
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. I created a `rails new --api` app to skip all frontend
+2. created a test to trigger the missing entrypoint
+3. on red I created an engine that provides that route
 
-Things you may want to cover:
+At this point I proceed creating tests INSIDE the engine.
 
-* Ruby version
+Useful link to setup rspec inside the engine https://www.hocnest.com/blog/testing-an-engine-with-rspec/
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
