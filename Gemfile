@@ -40,3 +40,7 @@ end
 group :development, :test do
   gem 'rspec-rails', '~> 6.0.0'
 end
+
+path 'components' do
+  gem 'membership_payment_api'
+end
