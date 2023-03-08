@@ -8,6 +8,7 @@ module MembershipPaymentApi
       generator = BankTransaction::Generator.new
       generator.submit(routing_number: 'xx5434')
       
+      Persistance::BankTransactionRecord.create!(routing_number: generator.routing_number, confirmation_id: generator.confirmation_id)
       render json: generator
     end
 

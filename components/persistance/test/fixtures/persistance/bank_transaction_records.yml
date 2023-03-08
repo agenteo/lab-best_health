@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount: 1
+  routing_number: MyString
+  confirmation_id: MyString
+
+two:
+  amount: 1
+  routing_number: MyString
+  confirmation_id: MyString
