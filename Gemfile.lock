@@ -1,5 +1,5 @@
 PATH
-  remote: components
+  remote: ..
   specs:
     bank_transaction (0.1.0)
     membership_payment_api (0.1.0)

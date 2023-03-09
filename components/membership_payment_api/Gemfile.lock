@@ -10,13 +10,12 @@ PATH
   specs:
     membership_payment_api (0.1.0)
       bank_transaction
-      persistence
+      persistance
       rails (>= 7.0.4.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    accessor_utilities (1.0.4)
     actioncable (7.0.4.2)
       actionpack (= 7.0.4.2)
       activesupport (= 7.0.4.2)
@@ -82,44 +81,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    array (1.0.0)
-      array-compositing
-      array-hooked
-      array-sorted
-      array-sorted-compositing
-      array-sorted-unique
-      array-sorted-unique-compositing
-      array-unique
-      array-unique-compositing
-    array-compositing (1.0.8)
-      array-hooked
-    array-hooked (1.1.4)
-      identifies_as
-      module-cluster
-    array-sorted (1.1.2)
-      array-hooked
-    array-sorted-compositing (1.0.5)
-      array-compositing
-      array-sorted
-    array-sorted-unique (1.1.1)
-      array-sorted
-      array-unique
-    array-sorted-unique-compositing (1.0.3)
-      array-sorted-compositing
-      array-unique-compositing
-    array-unique (1.1.1)
-      array-hooked
-    array-unique-compositing (1.0.6)
-      array-compositing
-      array-unique
     builder (3.2.4)
-    cascading_configuration (1.0.6)
-      accessor_utilities
-      array
-      hash
-      module-cluster
-      parallel_ancestry
-      to_camel_case
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
@@ -127,16 +89,8 @@ GEM
     erubi (1.12.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
-    hash (1.0.0)
-      hash-compositing
-      hash-hooked
-    hash-compositing (1.0.3)
-      hash-hooked
-    hash-hooked (1.2.1)
-      identifies_as
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    identifies_as (1.1.1)
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -149,7 +103,6 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.18.0)
-    module-cluster (2.0.5)
     net-imap (0.3.4)
       date
       net-protocol
@@ -162,12 +115,6 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.14.2-x86_64-linux)
       racc (~> 1.4)
-    parallel_ancestry (1.0.2)
-      array-unique
-      module-cluster
-    persistence (0.0.4)
-      cascading_configuration
-      module-cluster
     racc (1.6.2)
     rack (2.2.6.3)
     rack-test (2.0.2)
@@ -226,7 +173,6 @@ GEM
     sqlite3 (1.6.1-x86_64-linux)
     thor (1.2.1)
     timeout (0.3.2)
-    to_camel_case (1.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     websocket-driver (0.7.5)

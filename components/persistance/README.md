@@ -1,28 +1,3 @@
-# Persistance
-Short description and motivation.
+This is an example engine (gem) that solely takes care of persitance in the database. We're using ActiveRecord.
 
-## Usage
-How to use my plugin.
-
-## Installation
-Add this line to your application's Gemfile:
-
-```ruby
-gem "persistance"
-```
-
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install persistance
-```
-
-## Contributing
-Contribution directions go here.
-
-## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The database models are created here and the Rake task for migration is provided to the top level app via `initializer :append_migrations do |app|` in `lib/persistance/engine.rb`. The top level app won't have the migration timestamped files they'd live in this engine only.
