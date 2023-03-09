@@ -13,4 +13,5 @@ gem "sprockets-rails"
 
 path ".." do
     gem "bank_transaction"
+    gem "persistance"
 end

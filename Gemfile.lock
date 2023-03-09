@@ -4,6 +4,9 @@ PATH
     bank_transaction (0.1.0)
     membership_payment_api (0.1.0)
       bank_transaction
+      persistance
+      rails (>= 7.0.4.2)
+    persistance (0.1.0)
       rails (>= 7.0.4.2)
 
 GEM
@@ -169,6 +172,7 @@ GEM
       rspec-mocks (~> 3.11)
       rspec-support (~> 3.11)
     rspec-support (3.12.0)
+    sqlite3 (1.6.1-x86_64-linux)
     thor (1.2.1)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -188,6 +192,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   rspec-rails (~> 6.0.0)
+  sqlite3
   tzinfo-data
 
 RUBY VERSION
